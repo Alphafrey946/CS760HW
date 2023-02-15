@@ -1,12 +1,5 @@
-## anytree us used only for visualization
 import numpy as np
 import random
-from anytree import Node, RenderTree
-import matplotlib.pyplot as plt
-from scipy.interpolate import lagrange
-from sklearn.metrics import mean_absolute_error
-from anytree.exporter import UniqueDotExporter
-from random import randint
 
 class Decisiontree(object):
   def __init__(self, data):
